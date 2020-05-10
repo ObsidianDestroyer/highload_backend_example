@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+isort = "*"
+black = "*"
+flake8 = "*"
+radon = "*"
+httpx = "*"
+pytest-asyncio = "==0.12.0"
+asynctest = "*"
+
+[packages]
+uvloop = "==0.14.0"
+starlette = "==0.13.4"
+tortoise-orm = "==0.16.10"
+structlog = "==20.1.0"
+uvicorn = "==0.11.5"
+colorama = "==0.4.3"
+aiomysql = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
